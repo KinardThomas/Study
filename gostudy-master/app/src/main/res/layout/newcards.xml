@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Front Of Card"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal|bottom|fill_vertical|top"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ff000aff" />
+
+
+    <EditText
+        android:id="@+id/front_user"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:background="@drawable/card2"
+        android:layout_weight="7.01"
+        android:gravity="top"
+        android:textCursorDrawable="@null"
+        android:lineSpacingExtra="5dp"
+        android:paddingTop="22dp"
+        android:typeface="monospace"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Back of Card"
+
+        android:layout_weight="1"
+        android:textColor="#ffff0014"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:gravity="center_vertical|center_horizontal|fill_vertical" />
+
+
+    <EditText
+        android:id="@+id/back_user"
+        android:lineSpacingExtra="5dp"
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/card2"
+        android:typeface="monospace"
+        android:gravity="top"
+        android:paddingTop="22dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/addCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Card" 
+        	android:layout_weight="10"
+            android:textSize="30dp"
+            android:textStyle="bold|italic"
+            android:shadowColor="#ffff0008" />
+
+        <Button
+            android:id="@+id/GoBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+       		android:layout_weight="1"
+            android:textStyle="bold|italic"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+    <EditText
+        android:id="@+id/newName"
+        android:layout_width="match_parent"
+        android:layout_height="75dp" />
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="374dp"
+        android:textColor="#ffff0003"
+        android:textSize="20dp">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Save Deck"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:textColor="#ffff0003" />
+
+</LinearLayout>
